@@ -31,6 +31,10 @@ console.log(sconto);
 
 let prezzoScontato = prezzo * sconto;
 
+let n = prezzoScontato.toFixed(2);
+
 console.log(prezzoScontato);
 
-document.getElementById("price").innerHTML = prezzoScontato
+console.log(n);
+
+document.getElementById("price").innerHTML = n;
